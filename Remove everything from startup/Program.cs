@@ -1,6 +1,7 @@
-﻿using Microsoft.Win32;
+using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Management;
 using System.Text;
@@ -10,6 +11,17 @@ namespace Remove_everything_from_startup
 {
     class Program
     {
+        static void removefolder()
+        {
+            string Path = Environment.GetFolderPath(Environment.SpecialFolder.Startup);
+            Console.WriteLine(Path);
+            System.IO.DirectoryInfo di = new DirectoryInfo(Path);
+
+            foreach (FileInfo file in di.GetFiles())
+            {
+                file.Delete();
+            }
+        }
         static void Main(string[] args)
         {
 
@@ -27,6 +39,8 @@ namespace Remove_everything_from_startup
 
             }
             /////////////////
+
+            removefolder();
             ManagementClass cls = new ManagementClass("Win32_StartupCommand");
             ManagementObjectCollection coll = cls.GetInstances();
 
