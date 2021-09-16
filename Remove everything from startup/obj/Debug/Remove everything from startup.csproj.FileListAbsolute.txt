@@ -1,0 +1,6 @@
+C:\Users\black\source\repos\Remove everything from startup\Remove everything from startup\obj\Debug\Remove everything from startup.csproj.CoreCompileInputs.cache
+C:\Users\black\source\repos\Remove everything from startup\Remove everything from startup\bin\Debug\Remove everything from startup.exe.config
+C:\Users\black\source\repos\Remove everything from startup\Remove everything from startup\bin\Debug\Remove everything from startup.exe
+C:\Users\black\source\repos\Remove everything from startup\Remove everything from startup\bin\Debug\Remove everything from startup.pdb
+C:\Users\black\source\repos\Remove everything from startup\Remove everything from startup\obj\Debug\Remove everything from startup.exe
+C:\Users\black\source\repos\Remove everything from startup\Remove everything from startup\obj\Debug\Remove everything from startup.pdb
